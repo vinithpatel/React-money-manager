@@ -1,0 +1,59 @@
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+  }
+}
+.balance-card {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .balance-card {
+    width: 250px;
+    margin-right: 20px;
+  }
+}
+.balance-image {
+  height: 60px;
+}
+.balance-info-card {
+  margin-left: 20px;
+  font-family: 'Roboto';
+}
+.balance-heading {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+  margin-bottom: 0px;
+}
+.balance-rs {
+  font-size: 25px;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 10px;
+}
+.green-background {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.blue-background {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.pink-background {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}

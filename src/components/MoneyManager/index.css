@@ -1,0 +1,129 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+.intro-card {
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.intro-card-heading {
+  font-size: 25px;
+  text-align: center;
+}
+.intro-card-para {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .intro-card-heading {
+    text-align: left;
+  }
+  .intro-card-para {
+    text-align: left;
+  }
+}
+
+.money-manager-text {
+  color: #0b69ff;
+  font-weight: 500;
+}
+.transactions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.add-transaction-card {
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .transactions-container {
+    flex-direction: row;
+  }
+  .add-transaction-card {
+    width: 45%;
+    margin-right: 40px;
+    flex-shrink: 0;
+  }
+}
+.transaction-heading {
+  font-size: 18px;
+  font-weight: 500;
+}
+.input-card {
+  margin-bottom: 10px;
+}
+.title-label {
+  color: #7e858e;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.input-title {
+  border: 1px solid #7e858e;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.add-button {
+  background-color: #0b69ff;
+  height: 40px;
+  width: 80px;
+  border-width: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.history-card {
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  width: 100%;
+}
+.transaction-history-card {
+  list-style-type: none;
+  padding: 0px;
+}
+.transaction-history-card {
+  border: 1px solid #cbd5e1;
+}
+.history-heading-columns {
+  display: flex;
+  border-bottom: 1px solid #cbd5e1;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Roboto';
+}
+.title-heading {
+  font-weight: 500;
+  width: 100px;
+}
+.amount-heading {
+  font-weight: 500;
+  width: 100px;
+}
+.type-heading {
+  font-weight: 500;
+  width: 100px;
+}
